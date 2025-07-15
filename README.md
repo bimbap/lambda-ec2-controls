@@ -1,4 +1,4 @@
-# Lambda EC2 Control
+# Lambda EC2 Control Templates
 
 A practical solution for managing your EC2 instances directly from AWS Lambda. This repository provides ready-to-use Lambda functions for **starting**, **stopping**, and **rebooting** EC2 instances, implemented in both **Node.js 18** and **Python 3.9**.
 
@@ -15,13 +15,6 @@ This project enables you to:
 - Reboot EC2 instances as part of scheduled maintenance
 
 It is ideal for developers and DevOps engineers who require lightweight automation without unnecessary complexity.
-
----
-
-## 📂 Repository Structure
-
-
-Each folder contains Lambda functions for the respective programming language, organized by action (**start**, **stop**, **reboot**).
 
 ---
 
@@ -45,19 +38,6 @@ To use this project, you will need:
   - `ec2:StartInstances`
   - `ec2:StopInstances`
   - `ec2:RebootInstances`
-
----
-
-## 🙌 Contributors
-
-Please refer to the [CONTRIBUTORS.md](./nodejs/CONTRIBUTORS.md) file for references and acknowledgments.
-
----
-
-## 📖 Additional Resources
-
-- [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
-- [Amazon EventBridge Documentation](https://docs.aws.amazon.com/eventbridge/latest/userguide/what-is-amazon-eventbridge.html)
 
 ---
 
