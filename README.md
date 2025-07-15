@@ -8,13 +8,15 @@ Whether you are aiming to optimize AWS costs or automate infrastructure tasks, t
 
 ## 📌 Overview
 
-This project enables you to:
+This project provides Lambda functions to:
 
-- Start EC2 instances programmatically
-- Stop EC2 instances when not in use
-- Reboot EC2 instances as part of scheduled maintenance
+- Start EC2 instances programmatically when triggered
+- Stop EC2 instances to reduce costs during idle times
+- Reboot EC2 instances as part of your maintenance workflow
 
-It is ideal for developers and DevOps engineers who require lightweight automation without unnecessary complexity.
+These functions are executed **manually** when invoked through AWS Lambda. For automation (e.g., scheduling start/stop tasks), you can integrate them with services like Amazon EventBridge.
+
+It is ideal for developers and DevOps engineers who want lightweight EC2 management tools without unnecessary complexity.
 
 ---
 
